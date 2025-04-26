@@ -3,32 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta meta="keywords" content="resume, kuznetsov, frontender, fullstack, js, html, react">
+    <meta meta="keywords" content="resume, ivanov, frontender, fullstack, js, html, react">
     <meta meta="description" content="Это страница резюме фронтенд разработчика Гувера Иванова">
     <title>Resume_Gyvers</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Гувер Иванов</h1>
+    <div class="info">
         
-    <img src="234jhjk1234.jpeg" width="200">
-    
-    <p>Разработка фронтенд приложениий на React, JS, Node.JS. Опыт разработки в распределенных командах и индивидуально fullstack. Богатое портфолио готовых проектов. Гарантированные сроки и возможности как фиксированной стоимости разработки, так и гибкой настройки оплаты конечного результата. Возможность <strong>профессиональной консультации</strong> по интеграции бизнес-процессов заказчика в цифровую среду. <em>Анализ и рекомендации по улучшению процессов заказчика</em> исходя из текущей ситуации на рынке цифровых услуг.</p>
-    <br>
-    <p><strong>Список социальных сетей:</strong></p>
+        <img src="234jhjk1234.jpeg" width="200">
 
-    <a href="" target="_blank">VK</a>
-    |
-    <a href="" target="_blank">HH</a>
-    |
-    <a href="" target="_blank">Linked-In</a>
+        <div class="info-text">
+            <h1>Гувер Иванов</h1>
 
-    <h2>Мои Хобби</h2>
+            <p>Разработка фронтенд приложениий на React, JS, Node.JS. Опыт разработки в распределенных командах и индивидуально fullstack. Богатое портфолио готовых проектов. Гарантированные сроки и возможности как фиксированной стоимости разработки, так и гибкой настройки оплаты конечного результата. Возможность <strong>профессиональной консультации</strong> по интеграции бизнес-процессов заказчика в цифровую среду. <em>Анализ и рекомендации по улучшению процессов заказчика</em> исходя из текущей ситуации на рынке цифровых услуг.</p>
+            <br>
+            <p>Люблю путешествовать, заниматься спортом и программировать</p>
+            <br>
+            <p><strong>Список социальных сетей:</strong></p>
+
+            <a href="" target="_blank">VK</a>
+            |
+            <a href="" target="_blank">HH</a>
+            |
+            <a href="" target="_blank">Linked-In</a>
+        </div>
+    </div>
+
+    <div class="card bg-green">
+        <h2>Мои Хобби</h2>
         <ol>
             <li>Путешествия</li>
             <li>Работа по дереву</li>
             <li>Чтение</li>
         </ol>
+    </div>
     
+    <div class="card bg-red">
+        <h2>Опыт работы</h2>
         <table width="300">
             <thead>
                 <tr>
@@ -62,7 +74,10 @@
             
         </table>
     
+    </div>
+
     <br>
+
     <h2>Связаться со мной</h2>
     
     <form action="/">
